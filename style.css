@@ -43,6 +43,20 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  color: black;
+}
+
+.nav-links a {
+  color: black !important; /* Add this line to ensure it overrides Bootstrap */
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+.nav-links a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
 }
 
 a {
