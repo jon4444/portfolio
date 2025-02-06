@@ -427,26 +427,38 @@
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
+      <p class="section__text__p1">
+        If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.
+      </p>
       <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">jonxog@gmail.com</a></p>
+      
+      <!-- Contact Form -->
+      <form action="mailto:jonxog@gmail.com" method="post" enctype="text/plain">
+        <div class="contact-form-container">
+          <!-- Name Field -->
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+          
+          <!-- Email Field -->
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+          </div>
+          
+          <!-- Message Field -->
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+          </div>
+          
+          <!-- Send Button -->
+          <div class="form-field">
+            <button type="submit" class="btn">Send</button>
+          </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="www.linkedin.com/in/john-kola-fabiyi">LinkedIn</a></p>
-        </div>
-      </div>
+      </form>
     </section>
     <footer>
       <nav>
