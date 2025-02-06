@@ -1,5 +1,11 @@
 # Personal Portfolio/Website
 
-> main branch is master
+> Main branch is *master*
 
-> https://johnkolafabiyi.netlify.app/
+> hosted on <https://johnkolafabiyi.netlify.app/>
+
+## Sections 
+- About Me
+- Experience
+- Projects
+- Contact Me
